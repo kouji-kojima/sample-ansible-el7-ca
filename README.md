@@ -111,7 +111,7 @@ ansible-playbook -i production site.yml --private-key=/path/key.pem -vvv
 License
 -------
 
-[Apache License Version 2.0](https://github.com/kouji-kojima/centos-rhel-ansible-ca/blob/master/LICENSE)
+[Apache License Version 2.0](https://github.com/kouji-kojima/sample-ansible-el7-ca/blob/master/LICENSE)
 
 
 Author Information
