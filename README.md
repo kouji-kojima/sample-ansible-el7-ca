@@ -1,5 +1,5 @@
-centos-rhel-ansible-ca
-=========
+sample-ansible-el7-ca
+=====================
 
 社内CA証明書を登録するロール。
 Role to register Internal Certification Authority.
@@ -15,7 +15,7 @@ Please start from the point where you created CentOS 7.x, RHEL 7.x with AWS EC2.
 Dependencies
 ------------
 
-kouji-kojima.centos-rhel-ansible-init
+kouji-kojima.sample-ansible-el7-init
 
 
 Example Playbook
@@ -33,8 +33,7 @@ cat << EOF > site.yml
     ca_url: https://xxxxxxxx.co.jp/xxx.ca(*1)
     ca_sha256: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   roles:
-    - { role: kouji-kojima.centos-rhel-ansible-init }
-    - { role: kouji-kojima.centos-rhel-ansible-ca }
+    - { role: kouji-kojima.sample-ansible-el7-ca }
 EOF
 ```
 
