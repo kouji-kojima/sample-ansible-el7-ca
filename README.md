@@ -28,7 +28,7 @@ Please create site.yml as follows.
 cat << EOF > site.yml
 - hosts: servers
   remote_user: ec2-user
-  sudo: yes
+  become: yes
   vars:
     ca_url: https://xxxxxxxx.co.jp/xxx.ca(*1)
     ca_sha256: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
